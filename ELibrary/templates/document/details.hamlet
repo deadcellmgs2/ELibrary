@@ -1,0 +1,7 @@
+<div .jumbotron>
+     <div .container>
+       <h1> #{documentName document}
+       <p .navbar-text>
+            #{documentDescripcion document}
+
+<a href=#{relfilePath $ Import.unpack $ documentName document} .btn .btn-default> _{MsgDownload}

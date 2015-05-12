@@ -1,0 +1,4 @@
+<div .form-actions>
+            <form method=post enctype=#{enctype}>
+                ^{widget}
+                <input .btn type=submit value="Upload">

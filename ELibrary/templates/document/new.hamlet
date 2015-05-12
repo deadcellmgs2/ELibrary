@@ -1,0 +1,5 @@
+<h1> _{MsgNewDocument}
+<form method=post action=@{NewDocumentR} entype=#{encoding} >
+ ^{widget}
+ <button .btn .btn-info> _{MsgSubmit}
+

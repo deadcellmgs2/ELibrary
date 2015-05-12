@@ -1,0 +1,16 @@
+/static StaticR Static appStatic
+
+/auth   AuthR   Auth   getAuth
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/ HomeR GET 
+/new/ NewDocumentR GET POST
+/add/#DocumentId AddFilesR GET POST
+/shared SharedR GET 
+/details/#DocumentId DocumentR GET
+/delete/#DocumentId DeleteR GET
+/edit/#DocumentId DocumentUpdateR GET POST
+
+

@@ -1,0 +1,18 @@
+$maybe msg <- mmsg
+    <div #message>#{msg}
+<a href=@{HomeR} >
+   <img src="/static/logo.png" >
+<ul .nav .nav-pills> 
+   <li role="presentation" .active> 
+     $maybe _ <- muid
+      <a href=@{AuthR LogoutR} .btn .btn-default> _{MsgLogout}
+      
+     $nothing
+      <a href=@{AuthR LoginR} .btn .btn-default > _{MsgLogin}
+   <li role="presentation" .active>
+     <a href=@{HomeR} .btn .btn-default>_{MsgDocumentList}
+   <li role="presentation" .active>
+     <a href=@{NewDocumentR} .btn .btn-default>_{MsgNewDocument}  
+   <li role="presentation" .active >
+     <a href=@{SharedR} .btn .btm-default > _{MsgSharedFiles}
+^{widget}

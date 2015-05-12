@@ -1,0 +1,12 @@
+<h1 >_{MsgMyDocuments}
+<div .jumbotron>
+      <ul>
+       $forall Entity bid document <- documents 
+          <li>
+           <a href=@{DocumentR bid}> #{documentName document}
+           <a .btn .btn-default href=@{DeleteR bid}>
+             _{MsgDel}
+           <a .btn .btn-default href=@{DocumentUpdateR bid}>
+             _{MsgEditDoc}
+        
+                

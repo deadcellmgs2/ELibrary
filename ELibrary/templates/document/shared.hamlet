@@ -1,0 +1,7 @@
+<h1 >_{MsgSharedFiles}
+<div .jumbotron>
+      <ul>
+       $forall Entity bid document <- documents 
+          <li>
+           <a href=@{DocumentR bid}>#{documentName document}
+       

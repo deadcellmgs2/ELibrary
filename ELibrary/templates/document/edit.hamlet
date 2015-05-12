@@ -1,0 +1,4 @@
+<h1> _{MsgEditDocument}
+<form method=post action=@{DocumentUpdateR bid} entype=#{encoding} >
+ ^{widget}
+ <button .btn .btn-info> _{MsgSubmit}

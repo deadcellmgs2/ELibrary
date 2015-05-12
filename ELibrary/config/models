@@ -1,0 +1,27 @@
+User
+    ident Text
+    password Text Maybe
+    UniqueUser ident
+    deriving Typeable
+Email
+    email Text
+    user UserId Maybe
+    verkey Text Maybe
+    UniqueEmail email
+
+Document
+    user UserId default=1
+    name Text
+    descripcion Markdown
+    rate Int
+    shared Bool default=True   
+Tag
+    file DocumentId default=1
+    name Text
+
+Location
+    route Text    
+
+    
+
+ -- By default this file is used in Model.hs (which is imported by Foundation.hs)
